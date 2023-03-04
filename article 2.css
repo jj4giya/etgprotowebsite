@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 5vh;
+  background-color: rgb(14, 14, 13);
+  padding-right: 15px;
+}
+
+.header hlink{
+  flex: 1;
+}
+
+.hlink ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1px 15px;
+}
+
+.hlink ul li a {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  border-bottom: 1px solid #348bcb;
+  padding-right: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+nav img {
+  width: 300px;
+  padding-left: 30px;
+}
+
+.navlink {
+  flex: 1;
+  text-align: right;
+}
+
+.navlink ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.navlink ul li a {
+  padding: 1px 15px;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #348bcb;
+  position: relative;
+}
+
+.heading {
+  position: relative;
+  padding: 100px 0px 300px;
+  background-image: url(diagram.jpg);
+}
+
+.h-blur {
+  top: 0vh;
+  position : absolute;
+  background-color: #348ccbd8;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+
+.h-blur h1 {
+  color: white;
+  font-size: 4em;
+}
+
+.content {
+  display: flex;
+  bottom: 100px;
+  left: 10%;
+  right: 10%;
+  position: relative;
+  background: white;
+  height: 2260px;
+  width: 80%;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  align-items: center;
+  justify-content: center;
+}
+
+.date img {
+  width: 40px;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  min-width: 10%;
+  position: absolute;
+  padding: 30px 10px 5px 20px;
+  top: 50px;
+  left: 10px;
+  color:#348bcb;
+
+}
+
+.text {
+  position: relative;
+  left: 0%;
+  min-width: 50%;
+  padding: 30px;
+
+}
+
+.text img{
+  position: relative;
+  height: 300px;
+  width: 500px;
+  top: 160px;
+}
+
+.text span{
+  bottom: 170px;
+  position: relative;
+  color: purple
+}
+
+.text h3{
+  position: relative;
+  bottom: 140px;
+  font-size: 1.6rem;
+}
+
+.text p{
+  position: relative;
+  bottom: 110px;
+  font-size: 1.6rem;
+  padding: 0px 0px 100px;
+}
+
+.figure{
+  background-image: url(battery.png);
+  height: 100px;
+  width: 90px;
+  background-size: cover;
+}
+
+.fig{
+  background-image: url(diagram.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  bottom: 160px;
+}
+
+.diagram{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #348bcb;
+  height: 130px;
+  border-radius: 0.8rem;
+  position: relative;
+  bottom: 160px;
+}
+
+.text h2{
+  position: relative;
+  bottom: 0px;
+}
+
+.text h4{
+  font-size: 1.6rem;
+  position: relative;
+  bottom: 130px;
+}
+
+.blogs {
+  background-color: #348bcb;
+  color: white;
+  position: relative;
+  bottom: 510px;
+}
+
+.blogs h1{
+  padding: 30px 50px;
+}
+
+.tile {
+  background-color: brown;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.img {
+  width: 100%;
+  height: 88%;
+  background: url("tile.jpg");
+  background-size: 200px;
+}
+
+
+.gradient{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+  display: flex;
+  place-items: flex-end;
+  place-content: center;
+}
+
+.gradient h2{
+  padding-bottom: 2%;
+}
+
+.btn {
+  background:white;
+  width: 100%;
+  height: 17%;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+.btn h3:hover {
+  color:purple;
+}
+
+.btn h3{
+  color:#348bcb;
+}
+
+.stuff {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lower {
+  position: absolute;
+  bottom: 0px;
+  padding-left: 20vh;
+}
+
+.lower p{
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.footer{
+  position: absolute;
+  height: 50vh;
+  background-color: black;
+  width: 100%;
+  top: 2850px;
+}
+
+.contact, .policy, .quicklink, .join {
+  color: gray;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footy a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footy {
+  list-style: none;
+}
+
+.contact h2, .policy h2, .quicklink h2, .join h2 {
+  color: white;
+  padding: 40px 0px 30px;
+}
+
+.policy ul li, .quicklink ul li, .join ul li{
+  padding: 0px 0px 10px 10px;
+  font-size: 0.9rem;
+}
+
+.contact p{
+  font-size:0.9rem;
+  padding: 0px 0px 10px 20px;
+}
+
+.contact span{
+  padding: 0px 0px 10px;
+}
+
